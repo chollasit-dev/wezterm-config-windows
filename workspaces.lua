@@ -10,7 +10,7 @@ M.default = {
 M.job_project = {
 	name = "Job",
 	spawn = {
-		args = { "wsl", "-d", "debian", "--cd", "~/projects/job/permanent" },
+		args = { "wsl", "-d", "debian", "--cd", "~/projects/job/permanent/level11" },
 	},
 }
 

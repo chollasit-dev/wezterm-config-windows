@@ -16,6 +16,10 @@ function M.set_keymaps(wezterm, config, act)
 			}),
 		},
 
+		-- scroll
+		{ key = "UpArrow", mods = "SHIFT", action = act.ScrollByLine(-1) },
+		{ key = "DownArrow", mods = "SHIFT", action = act.ScrollByLine(1) },
+
 		-- pane
 		-- TODO: Set split based on current domain (pwsh, WSL2)
 		-- {
